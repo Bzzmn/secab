@@ -6,5 +6,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "django>=5.1.5",
+    "django-tailwind[reload]>=3.8.0",
     "ruff>=0.9.3",
+    "wagtail>=6.3.2",
+    "cookiecutter>=2.6.0",
 ]
+
+[tool.setuptools]
+packages = ["secab", "apps"]

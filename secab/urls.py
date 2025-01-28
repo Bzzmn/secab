@@ -17,4 +17,7 @@ urlpatterns = [
 
     # Wagtail Frontend
     path('', include(wagtail_urls)),
+
+    # Tailwind Reload
+    path('__reload__/', include('django_browser_reload.urls')),
 ]
